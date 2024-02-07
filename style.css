@@ -1,0 +1,900 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Hind&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;1,200&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+    
+}
+/* ---------------------website-pages-------------------------------- */
+header{
+    width: 100%;
+    height: 100vh;
+    background:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.2)) , url(/image/shubhashis-roy-0I5lmWA2yNQ-unsplash.jpg);
+    /* backdrop-filter: blur(1px);  */
+    background-size: cover;
+    font-family: 'inter',sans-serif;
+    overflow: hidden;
+}
+.page-2{
+    width: 100%;
+    height: 100vh;
+    background:white
+    /* backdrop-filter: blur(1px);  */
+    /* background-size: cover; */
+    /* font-family: 'Poppins',sans-serif; */
+    /* overflow: hidden; */
+}
+.page-3{
+    width: 100%;
+    height: 100vh;
+    background: url(/image/krishnastatue.jpg);
+    /* backdrop-filter: blur(1px);  */
+    background-size: cover;
+    /* font-family: 'Poppins',sans-serif; */
+    /* overflow: hidden; */
+    min-height: 88cqh;
+    color: rgb(0, 0, 0);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.page-4{
+    width: 100%;
+    height: 100vh;
+    /* background:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.2)) , url(krishnastatue.jpg); */
+    /* backdrop-filter: blur(1px);  */
+    /* background-size: cover; */
+    font-family: 'Poppins',sans-serif;
+    /* overflow: hidden; */
+}
+.page-5{
+    width: 100%;
+    height: 100vh;
+    background:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.2)) , url(/image/gautambudh.jpg);
+    /* backdrop-filter: blur(1px);  */
+    background-size: cover;
+    font-family: 'Poppins',sans-serif;
+    overflow: hidden;
+}
+.page-6{
+    width: 100%;
+    height: 100vh;
+    background:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.2)) , url();
+    /* backdrop-filter: blur(1px);  */
+    background-size: cover;
+    font-family: 'Poppins',sans-serif;
+    overflow: hidden;
+}
+.page-7{
+    width: 100%;
+    height: 100vh;
+    /* background:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.2)) , url(); */
+    /* backdrop-filter: blur(1px);  */
+    background-size: cover;
+    font-family: 'Poppins',sans-serif;
+    overflow: hidden;
+}
+/* ---------------------------------pages-end--------------------------- */
+
+nav{
+    width: 100%;
+    height: 80px;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* border: 3px solid red; */
+}
+.logo{
+    font-size: 2em;
+    letter-spacing: 1px;
+    /* border: 3px solid red; */
+    font-weight: bold;
+    margin-right: 300px;
+   
+}
+.menu a{
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 10px;
+    font-size: 20px;
+}
+
+.menu a:hover{
+   background: transparent;
+}
+
+/* ------------------------------navbar-ends------------------------------ */
+.h-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    max-width: 650px;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color: #fff;
+}
+.h-text h3{
+    font-size: 1.5em;
+    /* border: 3px solid red; */
+
+}
+.h-text h1{
+    font-size: 4.5em;
+    /* border: 3px solid red; */
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.h-text a{
+    text-decoration: none;
+    background: rgb(255, 255, 255);
+    padding: 10px 20px;
+    color: #070707;
+    /* letter-spacing: 2px; */
+    transition: 0.4s;
+    border-radius: 10px;
+    font-weight: bold;
+    /* border: 3px solid red; */
+}
+
+/* ------------------second-page------------------------------ */
+
+.ourservice{
+    width: 100%;
+    height:300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 4.5em;
+    border: 3px solid red;
+    /* text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); */
+}
+.page-5{
+    text-align: center;
+}
+.footername{
+    margin-top: 220px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    color: #d9d9d9;
+    justify-content: center;
+    font-size: 10.5em;
+    /* border: 3px solid red; */
+    font-family: 'inter',sans-serif;
+    font-weight: 700;
+}
+/* ---------------------------------------------------footer-- */
+.socialmedia{
+  color: #d9d9d9;
+
+}
+.page-5::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50%; /* Adjust this value to change the height of the cropped part */
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1));
+}
+.social{
+  font-size: 3em;
+  margin-top: 30px;
+}
+.rights{
+  margin-top: 23px;
+  font-size: 1em;
+  
+}
+/* ------------------------------------------------- */
+html {
+	font-size:62.5%;
+}
+ul, li {
+	list-style: none;
+}
+input {
+	border: none;
+}
+
+.container-8pm {
+  width: 100%;
+  height: 64rem;
+  position: relative;
+  overflow: hidden;
+  background-color: #ffffff;
+}
+.container-8pm .rectangle-1-Lfw {
+  width: 106rem;
+  height: 55.9rem;
+  position: absolute;
+  left: 8.7rem;
+  top: 4.1rem;
+  background-color: #f3dcdc;
+}
+.container-8pm .rectangle-2-d9F {
+  width: 59.8rem;
+  height: 13.6rem;
+  position: absolute;
+  left: 31.8rem;
+  top: 10.8rem;
+  background-color: #d9d9d9;
+}
+.container-8pm .rectangle-5-8Lu {
+  width: 50.6rem;
+  height: 9.1rem;
+  position: absolute;
+  left: 65.4rem;
+  top: 29rem;
+  background-color: #ffffff;
+}
+.container-8pm .rectangle-16-FAd {
+  width: 47.7rem;
+  height: 9.1rem;
+  position: absolute;
+  left: 11.7rem;
+  top: 29rem;
+  background-color: #ffe6e6;
+}
+.container-8pm .rectangle-15-BKB {
+  width: 50.6rem;
+  height: 9.1rem;
+  position: absolute;
+  left: 65.4rem;
+  top: 38.5rem;
+  background-color: #ffffff;
+}
+.container-8pm .rectangle-17-WsF {
+  width: 47.7rem;
+  height: 9.1rem;
+  position: absolute;
+  left: 11.7rem;
+  top: 38.5rem;
+  background-color: #ffffff;
+}
+.container-8pm .web-development-3cH {
+  width: 27.2rem;
+  height: 3.5rem;
+  position: absolute;
+  left: 18.6rem;
+  top: 29.2rem;
+  text-align: center;
+  font-size: 2.8rem;
+  font-weight: 600;
+  line-height: 1.2175;
+  color: #000000;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.container-8pm .dsa-5J5 {
+  width: 6.2rem;
+  height: 3.5rem;
+  position: absolute;
+  left: 72.8rem;
+  top: 29.3rem;
+  text-align: center;
+  font-size: 2.8rem;
+  font-weight: 500;
+  line-height: 1.2175;
+  color: #000000;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.container-8pm .sql-Bc1 {
+  width: 5rem;
+  height: 3rem;
+  position: absolute;
+  left: 72.8rem;
+  top: 39.3rem;
+  text-align: center;
+  font-size: 2.4rem;
+  font-weight: 600;
+  line-height: 1.2175;
+  color: #000000;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.container-8pm .python-development-5SV {
+  width: 26.6rem;
+  height: 3rem;
+  position: absolute;
+  left: 19.2rem;
+  top: 38.8rem;
+  text-align: center;
+  font-size: 2.4rem;
+  font-weight: 600;
+  line-height: 1.2175;
+  color: #000000;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.container-8pm .i-have-expertise-in-web-development-pythondsa-and-sql-au3 {
+  width: 73rem;
+  height: 3.1rem;
+  position: absolute;
+  left: 27.5rem;
+  top: 22rem;
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 300;
+  line-height: 1.2175;
+  color: #000000;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.container-8pm .rectangle-9-5L1 {
+  width: 3.7rem;
+  height: 3.7rem;
+  position: absolute;
+  left: 12.9rem;
+  top: 39.6rem;
+  background-color: #000000;
+  border-radius: 0.6475rem;
+}
+.container-8pm .rectangle-12-b3T {
+  width: 3.7rem;
+  height: 3.7rem;
+  position: absolute;
+  left: 12.9rem;
+  top: 29.8rem;
+  background-color: #000000;
+  border-radius: 0.6475rem;
+}
+.container-8pm .rectangle-13-XC1 {
+  width: 3.7rem;
+  height: 3.7rem;
+  position: absolute;
+  left: 66.6rem;
+  top: 29.8rem;
+  background-color: #000000;
+  border-radius: 0.6475rem;
+}
+.container-8pm .rectangle-14-qCh {
+  width: 3.7rem;
+  height: 3.7rem;
+  position: absolute;
+  left: 66.6rem;
+  top: 39.3rem;
+  background-color: #161616;
+  border-radius: 0.6475rem;
+}
+.container-8pm .my-expertise-xo7 {
+  width: 34.4rem;
+  height: 8.1rem;
+  position: absolute;
+  left: 46.8rem;
+  top: 13.6rem;
+  text-align: center;
+  font-size: 6.2231rem;
+  font-weight: 700;
+  line-height: 1.2925;
+  color: #000000;
+  font-family: PT Sans, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.container-8pm .creating-dynamic-and-user-friendly-websites-GJ1 {
+  width: 35.7rem;
+  height: 2rem;
+  position: absolute;
+  left: 18.9rem;
+  top: 43.3rem;
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 300;
+  line-height: 1.2175;
+  color: #000000;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.container-8pm .creating-dynamic-and-user-friendly-websites-YmK {
+  width: 35.7rem;
+  height: 2rem;
+  position: absolute;
+  left: 72.8rem;
+  top: 43.3rem;
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 300;
+  line-height: 1.2175;
+  color: #000000;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.container-8pm .creating-dynamic-and-user-friendly-websites-rGD {
+  width: 35.7rem;
+  height: 2rem;
+  position: absolute;
+  left: 18.9rem;
+  top: 33.5rem;
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 300;
+  line-height: 1.2175;
+  color: #000000;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.container-8pm .creating-dynamic-and-user-friendly-websites-ZRX {
+  width: 35.7rem;
+  height: 2rem;
+  position: absolute;
+  left: 72.8rem;
+  top: 33.5rem;
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 300;
+  line-height: 1.2175;
+  color: #000000;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.container-8pm .item-1-UHb {
+  width: 0.8rem;
+  height: 2.5rem;
+  position: absolute;
+  left: 14.4rem;
+  top: 30.4rem;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.2175;
+  color: #ffffff;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.container-8pm .item-1-mGh {
+  width: 0.8rem;
+  height: 2.5rem;
+  position: absolute;
+  left: 14.4rem;
+  top: 40.2rem;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.2175;
+  color: #ffffff;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.container-8pm .item-1-5HP {
+  width: 0.8rem;
+  height: 2.5rem;
+  position: absolute;
+  left: 68.1rem;
+  top: 30.4rem;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.2175;
+  color: #ffffff;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.container-8pm .item-1-C77 {
+  width: 0.8rem;
+  height: 2.5rem;
+  position: absolute;
+  left: 68.1rem;
+  top: 39.9rem;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.2175;
+  color: #ffffff;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+}
+
+/* --------------------------page2-end---------- */
+.desktop-1-BdP {
+  width: 100%;
+  height: 65.4rem;
+  position: relative;
+  overflow: hidden;
+  /* background-color: #ffffff; */
+}
+
+.desktop-1-BdP .page3elementscontainer-YMT {
+  width: 122.8rem;
+  height: 43.2rem;
+  position: absolute;
+  left: 2.6rem;
+  top: 9.6rem;
+  /* background-color: #ffffff; */
+}
+.desktop-1-BdP .page3image-NrH {
+  width: 56rem;
+  height: 25.9rem;
+  position: absolute;
+  left: 67.2rem;
+  top: 18.3rem;
+  object-fit: cover;
+  vertical-align: top;
+  border-radius: 1rem;
+}
+.desktop-1-BdP .free-gita-books-rFf {
+  width: 44.6rem;
+  height: 7.1rem;
+  position: absolute;
+  left: 8.4rem;
+  top: 20.8rem;
+  text-align: center;
+  font-size: 5.8rem;
+  font-weight: 700;
+  line-height: 1.2125;
+  color: #000000;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.desktop-1-BdP .freebookcaption {
+  width: 55.9rem;
+  height: 7.3rem;
+  position: absolute;
+  left: 8.4rem;
+  top: 29.3rem;
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1.2125;
+  color: #000000;
+  font-family: Inter, 'Source Sans Pro';
+}
+/* --------------------------page4---------- */
+
+.desktop-1-Cgc {
+  align-items: center;
+  background-color: #ffffff;
+  box-sizing: border-box;
+  display: flex;
+  overflow: hidden;
+  padding: 15.5rem 2rem 15.5rem 5.5rem;
+  position: relative;
+  width: 100%;
+
+  .page3image-Mhv {
+    border-radius: 1.0886rem;
+    flex-shrink: 0;
+    height: 34.4rem;
+    margin-right: 3.638rem;
+    object-fit: cover;
+    vertical-align: top;
+    width: 60.962rem;
+  }
+  .auto-group-csjc-fCp {
+    flex-shrink: 0;
+    margin-bottom: 8rem;
+    width: 55.9rem;
+
+    .free-gita-books-AfN {
+      color: #000000;
+      font-family: Inter, 'Source Sans Pro';
+      font-size: 5.8rem;
+      font-weight: 700;
+      line-height: 1.2125;
+      margin-bottom: 1.4rem;
+      text-align: center;
+      white-space: nowrap;
+      width: 100%;
+    }
+    .register-on-our-website-and-get-access-to-free-gita-books-join-our-community-of-gita-readers-and-explore-the-teachings-of-lord-krishna-1AC {
+      color: #000000;
+      font-family: Inter, 'Source Sans Pro';
+      font-size: 2rem;
+      font-weight: 500;
+      line-height: 1.2125;
+      max-width: 55.9rem;
+    }
+  }
+}
+/* ------------------------------------------page6------------------------ */
+
+.container-Sdr {
+  align-items: center; 
+  background-color: #ffffff;
+  background-image: url(/image/asia-bharat-crowd-drone-18458588.jpeg);
+  background-position: center;
+  background-repeat: cover;
+  background-size: 100% 100%;
+  border-radius: 1.0886rem;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  padding: 13.6rem 27.5rem 6rem 27.5rem;
+  position: relative;
+  width: 100%;
+
+  .my-expertise-pPW {
+    color: #ffffff;
+    flex-shrink: 0;
+    font-family: PT Sans, 'Source Sans Pro';
+    font-size: 6.2231rem;
+    font-weight: 700;
+    line-height: 1.2925;
+    margin-bottom: 0.3rem;
+    text-align: center;
+    white-space: nowrap;
+  }
+  .i-have-expertise-in-web-development-pythondsa-and-sql-gAp {
+    color: #ffffff;
+    flex-shrink: 0;
+    font-family: Montserrat, 'Source Sans Pro';
+    font-size: 2.5rem;
+    font-weight: 300;
+    line-height: 1.2175;
+    margin-bottom: 4.9rem;
+    text-align: center;
+    white-space: nowrap;
+  }
+  .auto-group-srbn-kgU {
+    background-color: rgba(78, 94, 126, 0.7900000215);
+    border-radius: 2.7rem;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    margin: 0rem 21.4rem 0rem 20.3rem;
+    padding: 3.7rem 2.95rem 2.5rem 2.95rem;
+    width: calc(100% - 41.7rem);
+
+    .free-CYU {
+      color: #ffffff;
+      flex-shrink: 0;
+      font-family: PT Sans, 'Source Sans Pro';
+      font-size: 3.3642rem;
+      font-weight: 700;
+      line-height: 1.2925;
+      text-align: center;
+      white-space: nowrap;
+      width: 100%;
+    }
+    .item-0-uxg {
+      color: #ffffff;
+      flex-shrink: 0;
+      font-family: PT Sans, 'Source Sans Pro';
+      font-size: 2.4rem;
+      font-weight: 700;
+      line-height: 1.2925;
+      margin-bottom: 1.1rem;
+      text-align: center;
+      white-space: nowrap;
+      width: 100%;
+    }
+    .auto-group-wwcp-2nQ {
+      align-items: flex-start;
+      display: flex;
+      flex-shrink: 0;
+      margin: 0rem 10.35rem 0.2rem 0.35rem;
+      width: calc(100% - 10.7rem);
+
+      .page3image-MJt {
+        border-radius: 7.15rem;
+        flex-shrink: 0;
+        height: 1.9rem;
+        margin-right: 1.7rem;
+        object-fit: cover;
+        vertical-align: top;
+        width: 2.1rem;
+      }
+      .support-qUx {
+        color: #ffffff;
+        flex-shrink: 0;
+        font-family: Cabin, 'Source Sans Pro';
+        font-size: 2rem;
+        font-weight: 400;
+        line-height: 1.215;
+        text-align: center;
+        white-space: nowrap;
+      }
+    }
+    .auto-group-su6x-9Ek {
+      align-items: center;
+      display: flex;
+      flex-shrink: 0;
+      margin: 0rem 5.6rem 0.4rem 0.35rem;
+      width: calc(100% - 5.95rem);
+
+      .page3image-46p {
+        border-radius: 7.15rem;
+        flex-shrink: 0;
+        height: 1.9rem;
+        margin-right: 1.65rem;
+        object-fit: cover;
+        vertical-align: top;
+        width: 2.1rem;
+      }
+      .help-center-access-NNQ {
+        color: #ffffff;
+        flex-shrink: 0;
+        font-family: Cabin, 'Source Sans Pro';
+        font-size: 2rem;
+        font-weight: 400;
+        line-height: 1.215;
+        text-align: center;
+        white-space: nowrap;
+      }
+    }
+    .auto-group-mqfw-VT2 {
+      align-items: flex-end;
+      display: flex;
+      flex-shrink: 0;
+      margin: 0rem 9.55rem 1.7rem 0.35rem;
+      width: calc(100% - 9.9rem);
+
+      .page3image-D88 {
+        border-radius: 7.15rem;
+        flex-shrink: 0;
+        height: 1.9rem;
+        margin: 0rem 1.7rem 0.1rem 0rem;
+        object-fit: cover;
+        vertical-align: top;
+        width: 2.1rem;
+      }
+      .email-support-XuW {
+        color: #ffffff;
+        flex-shrink: 0;
+        font-family: Cabin, 'Source Sans Pro';
+        font-size: 2rem;
+        font-weight: 400;
+        line-height: 1.215;
+        text-align: center;
+        white-space: nowrap;
+      }
+    }
+    .auto-group-qkkn-fF2 {
+      align-items: center;
+      background-color: rgba(152, 163, 184, 0.9100000262);
+      border-radius: 2.7rem;
+      color: #ffffff;
+      display: flex;
+      flex-shrink: 0;
+      font-family: PT Sans, 'Source Sans Pro';
+      font-size: 1.7379rem;
+      font-weight: 700;
+      height: 3.3rem;
+      justify-content: center;
+      line-height: 1.2925;
+      margin-left: 0.35rem;
+      text-align: center;
+      white-space: nowrap;
+      width: 15.5rem;
+    }
+  }
+}
+
+/* ---------------------------------page7-------------------------- */
+
+.desktop-3-aDr {
+  align-items: center;
+  background-color: #ffffff;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  padding: 12.3rem 4.4rem 17.2rem 5.2rem;
+  position: relative;
+  width: 100%;
+
+  .auto-group-8zn8-9AU {
+    flex-shrink: 0;
+    height: 9.6rem;
+    margin: 0rem 41.5rem 8.1rem 40.6rem;
+    position: relative;
+    width: calc(100% - 82.1rem);
+
+    .testimonials-dzk {
+      color: #000000;
+      font-family: Inter, 'Source Sans Pro';
+      font-size: 5.8rem;
+      font-weight: 700;
+      height: 7.1rem;
+      left: 0;
+      line-height: 1.2125;
+      position: absolute;
+      text-align: center;
+      top: 2.5rem;
+      white-space: nowrap;
+      width: 36.3rem;
+    }
+    .what-our-customers-say-UkU {
+      color: rgba(0, 0, 0, 0.75);
+      font-family: Inter, 'Source Sans Pro';
+      font-size: 2.1935rem;
+      font-weight: 500;
+      height: 2.7rem;
+      left: 5.3rem;
+      line-height: 1.2125;
+      position: absolute;
+      top: 0;
+      white-space: nowrap;
+      width: 25.5rem;
+    }
+  }
+  .auto-group-dlqz-wtx {
+    align-items: center;
+    display: flex;
+    flex-shrink: 0;
+    margin-bottom: 3.5rem;
+    width: 100%;
+
+    .the-free-gita-book-from-spritual-kkrishna-has-been-a-life-changing-experience-for-me-thank-you-for-making-this-available-to-everyone-4ya {
+      color: rgba(0, 0, 0, 0.8299999833);
+      flex-shrink: 0;
+      font-family: Inter, 'Source Sans Pro';
+      font-size: 2.1935rem;
+      font-weight: 500;
+      line-height: 1.2125;
+      margin-right: 11.2rem;
+      max-width: 49.4rem;
+      text-align: center;
+    }
+    .i-am-grateful-to-spritual-kkrishna-for-providing-free-gita-books-to-everyone-this-has-helped-me-in-my-spiritual-journey-and-i-highly-recommend-it-to-others-Jd2 {
+      color: rgba(0, 0, 0, 0.8299999833);
+      flex-shrink: 0;
+      font-family: Inter, 'Source Sans Pro';
+      font-size: 2.1935rem;
+      font-weight: 500;
+      line-height: 1.2125;
+      max-width: 57.8rem;
+      text-align: center;
+    }
+  }
+  .auto-group-ycow-Zor {
+    align-items: center;
+    display: flex;
+    flex-shrink: 0;
+    margin: 0rem 25.3rem 1.7rem 18.3rem;
+    width: calc(100% - 43.6rem);
+
+    .jane-smith-5nC {
+      color: rgba(0, 0, 0, 0.7300000191);
+      flex-shrink: 0;
+      font-family: Inter, 'Source Sans Pro';
+      font-size: 2.4rem;
+      font-weight: 500;
+      line-height: 1.2125;
+      margin-right: 51.1rem;
+      text-align: center;
+      white-space: nowrap;
+    }
+    .john-doe-Crp {
+      color: rgba(0, 0, 0, 0.7300000191);
+      flex-shrink: 0;
+      font-family: Inter, 'Source Sans Pro';
+      font-size: 2.4rem;
+      font-weight: 500;
+      line-height: 1.2125;
+      text-align: center;
+      white-space: nowrap;
+    }
+  }
+  .auto-group-pngt-8Eg {
+    align-items: center;
+    display: flex;
+    flex-shrink: 0;
+    margin: 0rem 28rem 0rem 18.9rem;
+    width: calc(100% - 46.9rem);
+
+    .ceo-company-rAg {
+      color: rgba(0, 0, 0, 0.6899999976);
+      flex-shrink: 0;
+      font-family: Inter, 'Source Sans Pro';
+      font-size: 1.6rem;
+      font-weight: 500;
+      line-height: 1.2125;
+      margin-right: 53.8rem;
+      white-space: nowrap;
+    }
+    .teacher-Zqn {
+      color: rgba(0, 0, 0, 0.6899999976);
+      flex-shrink: 0;
+      font-family: Inter, 'Source Sans Pro';
+      font-size: 1.6rem;
+      font-weight: 500;
+      line-height: 1.2125;
+      white-space: nowrap;
+    }
+  }
+}
